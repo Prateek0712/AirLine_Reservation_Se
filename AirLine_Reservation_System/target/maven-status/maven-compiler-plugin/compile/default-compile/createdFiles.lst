@@ -29,6 +29,7 @@ com\mycompany\airline_reservation_system\BookTicket$10.class
 com\mycompany\airline_reservation_system\AddFlight.class
 com\mycompany\airline_reservation_system\BookTicket$4.class
 com\mycompany\airline_reservation_system\SearchCustomer$4.class
+com\mycompany\airline_reservation_system\AddAdmin$7.class
 com\mycompany\airline_reservation_system\AddCustomer$3.class
 com\mycompany\airline_reservation_system\AddFlight$10.class
 com\mycompany\airline_reservation_system\BookTicket.class
