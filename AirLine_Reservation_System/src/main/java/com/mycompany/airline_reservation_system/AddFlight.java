@@ -368,12 +368,13 @@ public class AddFlight extends javax.swing.JInternalFrame {
             pre.setString(3,arrival);
             pre.setString(4,departure);
             pre.setString(5,seat);
-            pre.setString(6,duration);
-            pre.setString(7,fare);
+            pre.setString(6,fare);
+            pre.setString(7,duration);
             pre.setString(8,date);
             
             pre.executeUpdate();
             JOptionPane.showMessageDialog(null, "Flight Added Successfully..!");
+            this.setVisible(false);
         } catch (SQLException ex) {
             Logger.getLogger(AddFlight.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ClassNotFoundException ex) {

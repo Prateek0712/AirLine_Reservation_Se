@@ -273,7 +273,7 @@ public void AutoID()
             pre.setString(5,last);
             pre.executeUpdate();
             JOptionPane.showMessageDialog(null, "Admin Added Successfully..!");
-            
+            this.setVisible(false);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(AddAdmin.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {

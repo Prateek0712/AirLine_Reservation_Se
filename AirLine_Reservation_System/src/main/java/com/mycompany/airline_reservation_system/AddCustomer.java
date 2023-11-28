@@ -422,6 +422,7 @@ public void AutoID()
             pre.setString(9,address);
             pre.executeUpdate();
             JOptionPane.showMessageDialog(null, "Customer Added Successfully..!");
+            this.setVisible(false);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(AddCustomer.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
